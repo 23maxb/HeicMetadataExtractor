@@ -1,0 +1,10 @@
+[package]
+name = "cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.3", features = ["derive"] }
+libheif-rs = "1.0.2"
+kamadak-exif = "0.5.5"
+four-cc = "0.3.0"
